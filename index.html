@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8"> <!-- contiene una lista de caracteres especificos para un grupo de idiomas -->
+  <title>😀Jose Luis' Personal Site</title>
+</head>
+
+<body>
+  <!--Colocamos un url de una imagen y un texto alterno que aparecerá cuando la imagen no aparesca (el texto alterno aparecerá si caduca el url)-->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dZneBi1eSTDgPkAjnjaD4dwz2Y5gnXefAQ&usqp=CAU" alt="robot profile">
+  <!--Colocamos una imagen que tenga la misma ubicacion que index.html y un texto alterno que aparecerá cuando la imagen no aparesca-->
+  <img src="mascota.png" alt="mascota profile">
+  <h1>Jose Luis</h1>
+  <!--encabezado de 1er nivel-->
+  <p><em>test content</em> to <strong>practice</strong></p> <!-- <p>parrafo ; <em>cursiva ; <strong>negrita -->
+  <p><em>test content</em> to <strong><a href="https://concepto.de/baloncesto/">practice</a></strong></p> <!-- a la linea anterior se agrego un hipervinculo a la palabra 'practice' (<a href=""></a>) -->
+  <p>Hola esto es un parrafo de prueba,ffffffffffffffffffffffffffff</p>
+  <!-- creación de una tabla; el atributo cellspacing crea un espacio entre datos-->
+  <table cellspacing="20">
+    <!-- "tr(table row)" sirve para llenar datos en una fila en forma de celdas -->
+    <!-- fila 1 -->
+    <tr>
+      <!-- "td(table data)" sirve para llenar un dato en una celda de la fila -->
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dZneBi1eSTDgPkAjnjaD4dwz2Y5gnXefAQ&usqp=CAU" alt="robot profile"></td> <!-- celda 1 -->
+      <td>
+        <h1>Jose Luis</h1>
+        <p><em>test content</em> to <strong>practice</strong></p>
+        <p><em>test content</em> to <strong><a href="https://concepto.de/baloncesto/">practice</a></strong></p>
+        <p>Hola esto es un parrafo de prueba,ffffffffffffffffffffffffff</p>
+      </td><!-- celda 2 -->
+    </tr> <!-- fin de la fila 1 -->
+  </table>
+  <!--linea horizontal-->
+  <hr>
+  <h3>Education</h3>
+  <!--lista desordenada-->
+  <ul>
+    <!--<li>item de lista, al cual se le agrego un hipervinculo a la palabra 'C.A'-->
+    <li><a href="https://es.wikipedia.org/wiki/Rock">C.A</a></li>
+    <li>M.E</li>
+  </ul>
+  <hr><!-- linea horizontal -->
+  <h3>Hobbies</h3>
+  <!--lista ordenada-->
+  <ol>
+    <!--<li>item de lista-->
+    <li>Box</li>
+    <li>Comer</li>
+    <li>Tomar</li>
+    <li><a href="hobbies.html">hobbies' link</a></li> <!-- se creo un hypervinculo de un pagina creada por nosotros, ubicada en el mismo directorio del programa de la pagina principal -->
+  </ol>
+  <hr><!-- linea horizontal -->
+  <h3>Work Experience</h3>
+  <!-- intento de hacer una tabla, sin usar ningun comando; se aprecia el desorden -->
+  <p>2010-2014 Lead Developer at Temp App</p>
+  <p>2010 Researcher at the Institute of Cognitive Neurosciences</p>
+  <!-- creación de una tabla-->
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+    </tfoot>
+    <!-- "tr(table row)" sirve para llenar datos en una fila en forma de celdas -->
+    <tr>
+      <!-- "td(table data)" sirve para llenar un dato en una celda de la fila -->
+      <td>2010-2014</td>
+      <td>Lead Developer at Temp App</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Researcher at the Institute of Cognitive Neurosciences</td>
+    </tr>
+  </table>
+  <hr><!-- linea horizontal -->
+  <h3>skills</h3>
+  <!-- tabla de 2 filas con 2 celdas cada una; el atributo "border" bordea todas las celdas -->
+  <table border="1">
+    <tr>
+      <td>iOS Development</td>
+      <td>🌟🌟🌟🌟🌟</td>
+      <td>Photography</td>
+      <td>🌟🌟</td>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td>🌟🌟🌟🌟🌟</td>
+      <td>Painting</td>
+      <td>🌟</td>
+    </tr>
+  </table>
+  <br><!-- salto de linea -->
+
+  <!-- tabla de 1 fila con 2 celdas; el atributo "border" bordea todas las celdas -->
+  <table border="1">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>iOS Development</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Photography</td>
+            <td>🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Painting</td>
+            <td>🌟</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <br><!-- salto de linea -->
+  <hr><!-- linea horizontal -->
+  <a href="contact-me.html">Contact me</a>
+</body>
+
+</html>

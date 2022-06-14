@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Jose Luis</h1>
+    <p>157457484</p>
+    <p>mail@mail.com</p>
+    <!-- Para trabajar con datos entrantes en nuestra web, se usa "Form" -->
+    <form class="" action="index.html" method="post">
+      <!-- Coloca una leyenda -->
+      <label>Your Name</label>
+      <!-- crea un caja, donde se obtiene datos -->
+      <input type="text" name="" value="">
+      <!-- permite seleccionar un color desde la web -->
+      <input type="color" name="" value=""><br>
+      <label>Password:</label>
+      <!-- crea una caja, donde al ingresar datos se mostraran circulos negros -->
+      <input type="password" name="" value="">
+      <!-- sirve para crear un boton que envia el dato o formulario -->
+      <input type="submit" name=""><br>
+    </form>
+    <br><br>
+
+    <form>
+      <input type="text"><br>
+      <input type="submit"><br>
+      <input type="file"><br>
+      <input type="date"><br>
+      <input type="radio"><br>
+      <input type="range"><br>
+    </form
+    >
+    <br><br>
+
+    <!-- formulario: action(será enviado al servidor de un correo); method="post"(los datos del formulario son incluidos en el cuerpo del formulario y son enviados al servidor); -->
+    <!-- enctype="text/plain"(valor predeterminado de texto en este caso utf-8) -->
+    <form action="mailto:aangelespinoza@gmail.com" method="post" enctype="text/plain">
+      <label>Your name:</label>
+      <!-- type="text"(el usuario ingresa texto); name="yourName"(etiqueta el texto con "yourName") -->
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <!-- type="email"(el usuario ingresa su email-si no hay @ el texto no es asumido como correo); name="yourEmail"(etiqueta el texto con "yourEmail") -->
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <!-- textarea(crea un area de texto con altura 10 y ancho 30) name="YourMessage"(etiqueta el texto con "YourMessage") -->
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <!-- sirve para crear un boton que envia el dato o formulario -->
+      <input type="submit" name="">
+    </form>
+
+  </body>
+</html>
